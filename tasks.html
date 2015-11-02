@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasklist</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Tasklist</a>
+            </div>
+
+            <!-- Collect the nav links and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <main>
+        <div class="container">
+            <!--Task 1 -->
+            <div class="row task-box">
+                <div class="col-sm-4">
+                    <img src="img/shopping_cart.jpg" alt="Shopping Cart" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-sm-8">
+                    <div class="text-center">
+                        <h1 class="title-tasks">Do the shopping</h1>
+                    </div>
+
+                    <div class="row ">
+                        <ul class="nav nav-tabs">
+                            <li class="nav active">
+                                <a href="#info-shopping" data-toggle="tab">INFO</a>
+                            </li>
+                            <li class="nav">
+                                <a href="#user-mary" data-toggle="tab">USER</a>
+                            </li>
+                            <li class="nav">
+                                <a href="#status-shopping" data-toggle="tab">STATUS</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="info-shopping">
+                                <p>I need to shop.  I need to buy meat, fresh vegetables and fruit for lunch and dinner.</p>
+                            </div>
+                            <div class="tab-pane fade" id="user-mary">
+                                <p><span class="glyphicon glyphicon-user user-femme"></span>Mary</p>
+                            </div>
+                            <div class="tab-pane fade" id="status-shopping">
+                                <p><span class="glyphicon glyphicon-remove icon-incompleted" title="Don't completed!"></span> Task Incompleted!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Task 2 -->
+            <!--<div class="row task-box">
+                <div class="col-sm-4">
+                    <img src="img/cooking.jpg" alt="Cooking" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-sm-8">
+                    <div class="text-center">
+                        <h1 class="title-tasks">Cook my lunch</h1>
+                    </div>
+
+                    <div class="row">
+                        <ul class="nav nav-tabs">
+                            <li class="nav active">
+                                <a href="#info-lunch" data-toggle="tab">INFO</a>
+                            </li>
+                            <li class="nav">
+                                <a href="#user-kate" data-toggle="tab">USER</a>
+                            </li>
+                            <li class="nav">
+                                <a href="#status-lunch" data-toggle="tab">STATUS</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="info-lunch">
+                                <p>I'll cook fish and chips for lunch.  It is my favorite meal!</p>
+                            </div>
+                            <div class="tab-pane fade" id="user-kate">
+                                <p><span class="glyphicon glyphicon-user user-femme"></span>Kate</p>
+                            </div>
+                            <div class="tab-pane fade" id="status-lunch">
+                                <p><span class="glyphicon glyphicon-ok icon-completed" title="Completed!"></span>Task Completed!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <!--Task 3 -->
+            <!--<div class="row task-box">
+                <div class="col-sm-4">
+                    <img src="img/cake.jpg" alt="Cake" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-sm-8">
+                    <div class="text-center">
+                        <h1 class="title-tasks">Cook Mark's birthday cake</h1>
+                    </div>
+
+                    <div class="row">
+                        <ul class="nav nav-tabs">
+                            <li class="nav active">
+                                <a href="#info-cake" data-toggle="tab">INFO</a>
+                            </li>
+                            <li class="nav">
+                                <a href="#user-anna" data-toggle="tab">USER</a>
+                            </li>
+                            <li class="nav">
+                                <a href="#status-cake" data-toggle="tab">STATUS</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="info-cake">
+                                <p>Mark's birthday is in two days, so I will cook this birthday cake.  It will be made of chocolate, it is Mark' favorite flavor.</p>
+                            </div>
+                            <div class="tab-pane fade" id="user-anna">
+                                <p><span class="glyphicon glyphicon-user user-femme"></span>Anna</p>
+                            </div>
+                            <div class="tab-pane fade" id="status-cake">
+                                <p><span class="glyphicon glyphicon-ok icon-completed" title="Completed!"></span>Task Completed!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <!--Task 4 -->
+            <!--<div class="row task-box">
+                <div class="col-sm-4">
+                    <img src="img/homework.jpg" alt="Homework" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-sm-8">
+                    <div class="text-center">
+                        <h1 class="title-tasks">Do the homework</h1>
+                    </div>
+
+                    <div class="row">
+                        <ul class="nav nav-tabs">
+                            <li class="nav active">
+                                <a href="#info-homework" data-toggle="tab">INFO</a>
+                            </li>
+                            <li class="nav">
+                                <a href="#user-paul" data-toggle="tab">USER</a>
+                            </li>
+                            <li class="nav">
+                                <a href="#status-homework" data-toggle="tab">STATUS</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="info-homework">
+                                <p>My math homework is a very long list of exercises.  So I need to start doing it to finish soon.</p>
+                            </div>
+                            <div class="tab-pane fade" id="user-paul">
+                                <p><span class="glyphicon glyphicon-user user-male" ></span>Paul</p>
+                            </div>
+                            <div class="tab-pane fade" id="status-homework">
+                                <p><span class="glyphicon glyphicon-remove icon-incompleted" title="Don't completed!"></span>Task Incompleted!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </main>
+
+
+
+
+
+
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

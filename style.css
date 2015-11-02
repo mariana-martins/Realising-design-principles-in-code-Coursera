@@ -1,0 +1,116 @@
+h1, h2, th {
+    text-align: center;
+}
+
+h1{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+
+.icon-completed{
+    color: #4cae4c;
+    padding-right: 0.5em;
+}
+
+.icon-incompleted{
+    color: #c9302c;
+    padding-right: 0.5em;
+}
+
+.tasklist{
+    list-style-type: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.img-task{
+    width: 20%;
+}
+
+
+.btn-about{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    font-size: 1.2em;
+}
+
+
+th, td{
+    width: 40%;
+}
+
+.task-box{
+    border-bottom: solid 1px #337ab7;
+}
+
+.img-thumbnail{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user-male{
+    color: #d58512;
+    padding-right: 0.3em;
+}
+
+.user-femme{
+    color: #c7254e;
+    padding-right: 0.3em;
+}
+
+.img-task{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#paragraph-about{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 2em;
+}
+
+#title-about{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3em;
+}
+
+body{
+    background-color: rgba(248, 248, 235, 0.3);
+}
+
+#title-index{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 7em;
+}
+
+.task-link{
+    font-family: 'Play', sans-serif;
+    font-size: 2em;
+}
+
+.navbar-default .navbar-brand{
+    color: #337ab7;
+    font-size: 3em;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 1.2em;
+}
+
+.title-tasks{
+    font-family: 'Righteous', cursive;
+
+}
+
+p{
+    font-family: 'Josefin Slab', serif;
+    padding: 3%;
+    font-size: 1.5em;
+    text-align: center;
+}
